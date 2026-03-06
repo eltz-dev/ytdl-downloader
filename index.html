@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Fahz‑Ytdl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h1>🎵 Fahz‑Ytdl</h1>
+  <p class="subtitle">Convert YouTube ke MP3 / MP4 dengan cepat</p>
+
+  <div class="card">
+    <input id="ytlink" placeholder="Tempel link YouTube di sini..." />
+
+    <div class="buttons">
+      <button onclick="convert('mp3')" class="mp3">Convert MP3</button>
+      <button onclick="convert('mp4')" class="mp4">Convert MP4</button>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="downloadBox" class="hidden">
+      <a id="downloadBtn" target="_blank">⬇ Download</a>
+    </div>
+  </div>
+
+  <div class="howto">
+    <h2>Cara Pakai</h2>
+    <ol>
+      <li>Salin link video YouTube</li>
+      <li>Tempel di kolom input</li>
+      <li>Pilih Convert MP3 atau MP4</li>
+      <li>Tunggu proses convert</li>
+      <li>Klik tombol Download</li>
+    </ol>
+  </div>
+
+  <footer>
+    <p>Made with Hand | Fahz‑Ytdl</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
